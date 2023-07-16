@@ -1,0 +1,64 @@
+// write css for a block with card-like style
+.sensor {
+  width: 100%;
+  max-width: 350px;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 6rem rgba(black, 0.1);
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    margin: 0;
+  }
+
+  .value {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .connectionCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 5rem;
+    justify-content: space-between;
+  }
+
+  .dotDisconnected {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #404040;
+  }
+
+  .dotConnected {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: green;
+  }
+
+  .btnConnect {
+    border: 2px solid green;
+    color: green;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .btnDisconnect {
+    border: 2px solid #404040;
+    color: #404040;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

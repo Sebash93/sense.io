@@ -1,0 +1,36 @@
+.filterToggle {
+  background: #fff;
+  border: 0.2rem solid #fff;
+  border-radius: 2.5rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  display: flex;
+
+  .option {
+    border-radius: 1.2rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border: 0;
+    font-size: 1rem;
+    color: #6e6e6e;
+    background: #fff;
+
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      background: #ddd;
+    }
+  }
+
+  .active {
+    background: green;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+      background: green;
+    }
+  }
+}
